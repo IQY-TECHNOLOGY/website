@@ -1,0 +1,410 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F0F4F8;
+    color: #333;
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+
+header {
+    background-color: #00a8cc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.join-class-btn {
+    background-color: #ff4081;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero {
+    background-color: #60b2d8;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.learn-more-btn {
+    background-color: #003B46;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.hero-image {
+    max-width: 45%;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-side {
+    background: linear-gradient(135deg, #5AC3F3, #8360c3);
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 50%; /* Adjusted to scale properly */
+}
+
+.right-side {
+    width: 60%;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.welcome-section {
+    margin-top: 50px;
+}
+
+.welcome-section h1 {
+    font-size: 36px;
+}
+
+.welcome-section p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.social-media a img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.features-section {
+    padding: 20px;
+    background: linear-gradient(135deg, #f9f9f9, #e0e0e0);
+}
+
+.features-section h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.features-tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.tab {
+    text-align: center;
+    width: 15%;
+}
+
+.tab img {
+    width: 50px;
+    height: 50px;
+}
+
+.tab p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.features-details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    background-color: #e0e7ff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    text-align: center;
+}
+
+.feature img {
+    width: 60px;
+    height: 60px;
+}
+
+.feature h3 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.feature p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.services-section {
+    padding: 50px 20px;
+    background-color: #8360c3;
+    color: white;
+}
+
+.services-section h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.service {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    width: 25%;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.service h3 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.service p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.service:hover {
+    background-color: #ffffff; /* Light blue hover effect */
+}
+
+.about-section {
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.about-section h2 {
+    font-size: 32px;
+    text-align: center; /* Center the About Us title */
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text {
+    width: 50%;
+}
+
+.about-text p {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.about-text .learn-more {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.about-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-us {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.contact-us p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-item {
+    text-align: center;
+}
+
+.contact-item img {
+    width: 50px;
+    height: 50px;
+}
+
+.contact-item h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.contact-item p {
+    font-size: 1em;
+    color: #333;
+}
+
+#services {
+    background-color: #d0d2fc;
+    padding: 60px 20px;
+}
+
+#services h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+}
+
+.service-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin: 20px;
+    text-align: center;
+    width: 30%;
+    transition: background-color 0.3s;
+}
+
+.service-card:hover {
+    background-color: #ffffff;
+}
+
+.service-card img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.service-card .more-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #007BFF;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+footer p {
+    margin: 0;
+}
